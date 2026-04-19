@@ -1,0 +1,5 @@
+Name = "UploadMonitor"
+Version = "1.0.0"
+Authors = ["OpenAI"]
+Description = "Logs how much data each other user has downloaded from you. Stores per-day totals, running totals, and optional per-upload event rows in a local SQLite database."
+Category = "Monitoring"
