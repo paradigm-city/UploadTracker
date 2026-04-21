@@ -1,6 +1,6 @@
-# UploadMonitor
+# UploadTracker
 
-UploadMonitor ist ein Plugin für Nicotine+, das abgeschlossene Uploads in einer lokalen SQLite-Datenbank protokolliert.
+UploadZTracker ist ein Plugin für Nicotine+, das abgeschlossene Uploads in einer lokalen SQLite-Datenbank protokolliert.
 
 Es speichert:
 - Tageswerte pro Benutzer
@@ -20,12 +20,12 @@ Es speichert:
 
 - `__init__.py` – Plugin-Code
 - `PLUGININFO` – Plugin-Metadaten
-- `uploadmonitor.sqlite3` – SQLite-Datenbank, wird beim Start erzeugt
+- `UploadZTracker.sqlite3` – SQLite-Datenbank, wird beim Start erzeugt
 
 ## Installation
 
 1. Die ZIP-Datei entpacken.
-2. Den Ordner `UploadMonitor` in den Nicotine+-Plugin-Ordner kopieren.
+2. Den Ordner `UploadZTracker` in den Nicotine+-Plugin-Ordner kopieren.
 3. Das Plugin in Nicotine+ aktivieren.
 
 ## Einstellungen
@@ -38,7 +38,7 @@ Name der SQLite-Datei im Plugin-Ordner.
 Standard:
 
 ```text
-uploadmonitor.sqlite3
+UploadZTracker.sqlite3
 ```
 
 ### `log_each_upload`
