@@ -36,7 +36,7 @@ class Plugin(BasePlugin):
         self.conn = None
 
     def init(self):
-        database_filename = (self.settings.get("database_filename") or "uploadmonitor.sqlite3").strip()
+        database_filename = (self.settings.get("database_filename") or "uploadtracker.sqlite3").strip()
         if not database_filename:
             database_filename = "uploadmonitor.sqlite3"
 
