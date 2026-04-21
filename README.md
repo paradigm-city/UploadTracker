@@ -1,6 +1,6 @@
 # UploadTracker
 
-UploadZTracker ist ein Plugin für Nicotine+, das abgeschlossene Uploads in einer lokalen SQLite-Datenbank protokolliert.
+UploadTracker ist ein Plugin für Nicotine+, das abgeschlossene Uploads in einer lokalen SQLite-Datenbank protokolliert.
 
 Es speichert:
 - Tageswerte pro Benutzer
